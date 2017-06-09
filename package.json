@@ -1,17 +1,31 @@
 {
   "name": "ember-cli-scroll-reveal",
   "version": "1.0.0-alpha.1",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Ember-ized scroll animations for web and mobile browsers.",
   "keywords": [
+    "scrollreveal",
+    "animations",
+    "scroll reveal",
+    "cybertooth",
     "ember-addon"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Cybertooth.io",
+  "contributors": [
+    {
+      "name": "Dan Nelson",
+      "email": "dnelson@cybertooth.ca",
+      "url": "https://github.com/nadnoslen"
+    }
+  ],
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cybertoothca/ember-cli-scroll-reveal.git"
+  },
   "scripts": {
     "build": "ember build",
     "start": "ember server",
