@@ -1,0 +1,13 @@
+@import "../../../../bower_components/bootswatch/readable/variables";
+//noinspection CssUnknownTarget
+@import 'ember-cli-bootstrap3-variables.scss';
+
+// HACK: this is being set to '' because phantomjs pukes on @import directives that go to google fonts
+$web-font-path: "//fonts.googleapis.com/css?family=Raleway:400,700";
+
+//noinspection CssUnknownTarget
+@import 'ember-cli-bootstrap3-sass';
+@import "../../../../bower_components/bootswatch/readable/bootswatch";
+
+//noinspection CssUnknownTarget
+@import 'ember-cli-font-awesome-sass';

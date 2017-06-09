@@ -1,0 +1,1 @@
+export { default } from 'ember-cli-scroll-reveal/components/scroll-reveal/div';

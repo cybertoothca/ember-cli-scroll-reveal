@@ -1,0 +1,61 @@
+<section>
+  <div class="container">
+    <div class="page-header">
+      <h1>Demonstration</h1>
+    </div>
+    <div>
+
+      {{!--@formatter:off--}}
+      <pre>\{{#scroll-reveal/div}}
+  &lt;i class="fa fa-arrow-down">&lt;/i>
+  Here it comes from the bottom (DEFAULT)
+\{{/scroll-reveal/div}}</pre>
+      {{!--@formatter:on--}}
+
+      {{#scroll-reveal/div}}
+        <i class="fa fa-arrow-down"></i>
+        Here it comes from the bottom (DEFAULT)
+      {{/scroll-reveal/div}}
+      <hr/>
+
+      {{!--@formatter:off--}}
+      <pre>\{{#scroll-reveal/div origin="left" duration=1000}}
+  &lt;i class="fa fa-arrow-left">&lt;/i>
+  Here it comes from the left
+      \{{/scroll-reveal/div}}</pre>
+      {{!--@formatter:on--}}
+
+      {{#scroll-reveal/div origin="left" duration=1000}}
+        <i class="fa fa-arrow-left"></i>
+        Here it comes from the left
+      {{/scroll-reveal/div}}
+      <hr/>
+
+      {{!--@formatter:off--}}
+      <pre>\{{#scroll-reveal/div origin="top" duration=1500}}
+  &lt;i class="fa fa-arrow-up">&lt;/i>
+  Here it comes from the top
+      \{{/scroll-reveal/div}}</pre>
+
+      {{!--@formatter:on--}}
+      {{#scroll-reveal/div origin="top" duration=1500}}
+        <i class="fa fa-arrow-up"></i>
+        Here it comes from the top
+      {{/scroll-reveal/div}}
+      <hr/>
+
+      {{!--@formatter:off--}}
+      <pre>\{{#scroll-reveal/div origin="right" duration=2000}}
+  &lt;i class="fa fa-arrow-right">&lt;/i>
+  Here it comes from the right
+      \{{/scroll-reveal/div}}</pre>
+      {{!--@formatter:on--}}
+      {{#scroll-reveal/div origin="right" duration=2000}}
+        <i class="fa fa-arrow-right"></i>
+        Here it comes from the right
+      {{/scroll-reveal/div}}
+      <hr/>
+    </div>
+  </div>
+</section>
+{{outlet}}
