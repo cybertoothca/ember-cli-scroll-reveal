@@ -19,40 +19,52 @@
       <hr/>
 
       {{!--@formatter:off--}}
-      <pre>\{{#scroll-reveal/div origin="left" duration=1000}}
+      <pre>\{{#scroll-reveal/div origin="left" duration=1000 reset=true}}
   &lt;i class="fa fa-arrow-left">&lt;/i>
   Here it comes from the left
       \{{/scroll-reveal/div}}</pre>
       {{!--@formatter:on--}}
 
-      {{#scroll-reveal/div origin="left" duration=1000}}
+      {{#scroll-reveal/div origin="left" duration=1000 reset=true}}
         <i class="fa fa-arrow-left"></i>
         Here it comes from the left
       {{/scroll-reveal/div}}
       <hr/>
 
       {{!--@formatter:off--}}
-      <pre>\{{#scroll-reveal/div origin="top" duration=1500}}
+      <pre>\{{#scroll-reveal/div origin="top" duration=1500 reset=true}}
   &lt;i class="fa fa-arrow-up">&lt;/i>
   Here it comes from the top
       \{{/scroll-reveal/div}}</pre>
 
       {{!--@formatter:on--}}
-      {{#scroll-reveal/div origin="top" duration=1500}}
+      {{#scroll-reveal/div origin="top" duration=1500 reset=true}}
         <i class="fa fa-arrow-up"></i>
         Here it comes from the top
       {{/scroll-reveal/div}}
       <hr/>
 
       {{!--@formatter:off--}}
-      <pre>\{{#scroll-reveal/div origin="right" duration=2000}}
+      <pre>\{{#scroll-reveal/div origin="right" duration=2000 reset=true}}
   &lt;i class="fa fa-arrow-right">&lt;/i>
   Here it comes from the right
       \{{/scroll-reveal/div}}</pre>
       {{!--@formatter:on--}}
-      {{#scroll-reveal/div origin="right" duration=2000}}
+      {{#scroll-reveal/div origin="right" duration=2000 reset=true}}
         <i class="fa fa-arrow-right"></i>
         Here it comes from the right
+      {{/scroll-reveal/div}}
+      <hr/>
+
+      {{!--@formatter:off--}}
+      <pre>\{{#scroll-reveal/div origin="right" duration=500 easing="ease-in" reset=true scale=0.5}}
+  &lt;i class="fa fa-arrow-right">&lt;/i>
+  Here it comes from the right
+      \{{/scroll-reveal/div}}</pre>
+      {{!--@formatter:on--}}
+      {{#scroll-reveal/div origin="right" duration=2000 reset=true scale=0.5}}
+        <i class="fa fa-balance-scale"></i>
+        Here it comes with some scaling
       {{/scroll-reveal/div}}
       <hr/>
     </div>
